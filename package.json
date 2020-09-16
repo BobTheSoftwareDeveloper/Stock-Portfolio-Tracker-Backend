@@ -16,7 +16,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.5",
     "mongoose-plugin-autoinc": "^1.1.9",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "speakeasy": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

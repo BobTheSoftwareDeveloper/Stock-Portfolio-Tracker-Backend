@@ -6,7 +6,10 @@ let Account = new Schema({
   username: String,
   password: String,
   email: String,
-  portfolio_id_list: [Number]
+  portfolio_id_list: [Number],
+  secret: String,
+  encoding: String,
+  verified: Boolean
 })
 
 Account.plugin(autoIncrement.plugin, {

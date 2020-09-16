@@ -15,7 +15,15 @@ const checkSessionExist = async (sessionId) => new Promise((resolve, reject) => 
         // expired session
         reject("session id expired")
       } else {
-        resolve({ status: 'valid', account_id: res.account_id })
+        const account_id = res.account_id
+        db.Account.findOne({ id: account_id }, function(err, res) {
+          if (err) {
+            reject(err)
+          } else {
+            const username = res.username
+            resolve({ status: 'valid', account_id: account_id, username: username })
+          }          
+        })
       }
     }
   })

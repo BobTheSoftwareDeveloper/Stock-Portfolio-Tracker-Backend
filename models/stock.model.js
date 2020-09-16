@@ -4,7 +4,8 @@ const Schema = mongoose.Schema
 
 let Stock = new Schema({
   ticker: String,
-  name: String
+  name: String,
+  current_price: Number
 })
 
 Stock.plugin(autoIncrement.plugin, {
