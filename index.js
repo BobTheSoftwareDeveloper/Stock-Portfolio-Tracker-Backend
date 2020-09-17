@@ -56,10 +56,5 @@ io.on("connection", (socket) => {
   })
 })
 
-// app.use((req, res, next) => {
-//   res.socketio = io
-//   next()
-// })
-
 const apiRoutes = require('./routes/all_routes')
 app.use('/api', apiRoutes) 
