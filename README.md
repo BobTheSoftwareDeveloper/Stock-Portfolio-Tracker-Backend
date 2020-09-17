@@ -22,13 +22,13 @@ API Website Link: [https://stockportfoliotrackerapinz.azurewebsites.net](https:/
   - One portfolio is for one stock
   
 #### Table type:
-![](Pictures/account.png)
-![](Pictures/portfolio.png)
-![](Pictures/stock.png)
-![](Pictures/session.png)
+- Account: ![](Pictures/account.png)
+- Portfolio: ![](Pictures/portfolio.png)
+- Stock: ![](Pictures/stock.png)
+- Session: ![](Pictures/session.png)
 
 #### Example table data:
-![](Pictures/account_data.png)
-![](Pictures/portfolio_data.png)
-![](Pictures/stock_data.png)
-![](Pictures/session_data.png)
+- Account: ![](Pictures/account_data.png)
+- Portfolio: ![](Pictures/portfolio_data.png)
+- Stock: ![](Pictures/stock_data.png)
+- Session: ![](Pictures/session_data.png)
