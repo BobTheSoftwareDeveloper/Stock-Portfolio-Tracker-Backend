@@ -17,6 +17,7 @@
     "mongoose": "^5.10.5",
     "mongoose-plugin-autoinc": "^1.1.9",
     "morgan": "^1.10.0",
+    "socket.io": "^2.3.0",
     "speakeasy": "^2.0.0"
   },
   "devDependencies": {

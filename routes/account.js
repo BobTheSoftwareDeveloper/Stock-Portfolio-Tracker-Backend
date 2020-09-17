@@ -97,8 +97,6 @@ apiRoutes.route('/create-account').post(function (req, res) {
   const password = req.body.password
   const email = req.body.email
 
-  console.log(username1)
-
   if (password === undefined || password === null) {
     return res.status(400).send("Bad request.")
   }
